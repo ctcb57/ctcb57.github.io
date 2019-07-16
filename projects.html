@@ -7,68 +7,104 @@
         <meta name="author" content="Charles Clark">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="styles.css">
     </head>
     <body>
-        <center>
-            <!--top navigation bar layout-->
-            <div class="topnav">
-                <a class="topNavButton" href="index.html">Homepage</a>
-                <a class="topNavButton" href="about_me.html">About Me</a>
-                <a class="topNavButton" href="projects.html">Projects</a>
-                <a class="topNavButton" href="contact.html">Contact</a>
+        <br>
+        <!--navigation bar-->
+        <nav class="navbar navbar-expand-lg">
+            <ul class="navbar-nav navbar-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Homepage</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about_me.html">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="projects.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <br><br><br>
+        <!--projects listing-->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8 text-center">
+                    <h1>Projects</h1>
+                </div>
+                <div class="col-sm-2"></div>
             </div>
             <br>
-            <br>
-           <!--Introductory Image-->
-            <div>
-                <img id="softwareImage" src="images/coding_image.png" alt="software development" title="software development">
-                <br>
-                <br>
-            </div>
-            <!--Projects Listing-->
-            <div>
-                <h1>Projects</h1>
+            <div class="row">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-6 text-center">
                     <h2>Project 1</h2>
                         <a href="">
                             <p class="projectPageText">Insert Link Here</p>
                         </a>
+                </div>
+                <div class="col-sm-3"></div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-6 text-center">
                     <h2>Project 2</h2>
                         <a href="">
                             <p class="projectPageText">Insert Link Here</p>
                         </a>
+                </div>
+                <div class="col-sm-3"></div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-6 text-center">
                     <h2>Project 3</h2>
                         <a href="">
                             <p class="projectPageText">Insert Link Here</p>
                         </a>
+                </div>
+                <div class="col-sm-3"></div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-6 text-center">
                     <h2>Project 4</h2>
                         <a href="">
                             <p class="projectPageText">Insert Link Here</p>
                         </a>
-                    <h2>Project 5</h2>
-                        <a href="">
-                            <p class="projectPageText">Insert Link Here</p>
+                </div>
+                <div class="col-sm-3"></div>
+            </div>
+        </div>
+        <br>
+        <!--social media bottom links-->
+        <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 text-center">
+                        <a href="https://www.facebook.com/charlie.clark.927" class="facebook">
+                            <img src="images/facebook_logo.png" alt="facebook" class="facebookImage">
+                                <div class="facebookMiddle">
+                                    <div class="textFacebook">Facebook</div>
+                                </div>
                         </a>
-            </div>
-            </div>
-            <!--bottom navigation to social media links-->
-            <div class="bottomNav">
-                <div class="container">
-                    <a href="https://www.facebook.com/charlie.clark.927">
-                        <img src="images/facebook_logo.png" alt="facebook" class="socialMediaImage" style="width:100%">
-                        <div class="middle">
-                            <div class="textFacebook">Facebook</div>
-                        </div>
-                    </a>
-                </div>
-                <div class="container">
-                    <a href="https://twitter.com/ctclark2">
-                        <img src="images/twitter_logo.png" alt="twitter" class="socialMediaImage" style="width:100%">
-                        <div class="middle">
-                            <div class="textTwitter">Twitter</div>
-                        </div>
-                    </a>
+                    </div>
+                    <div class="col-sm-6 text-center">
+                        <a href="https://twitter.com/ctclark2" class="twitter">
+                            <img src="images/twitter_logo.png" alt="twitter" class="twitterImage">
+                                <div class="twitterMiddle">
+                                    <div class="textTwitter">Twitter</div>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
-        </center>
+            <br><br><br>
     </body>
