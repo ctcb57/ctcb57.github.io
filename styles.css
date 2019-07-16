@@ -1,0 +1,178 @@
+body{
+    background-color: #cccdcf;
+}
+
+.navbar-nav.navbar-center{
+    font-family: 'Source Sans Pro';
+    font-size: 30px;
+    color: #186e1e;
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.nav-link{
+    padding: 25px;
+    font-size: 30px;
+    color: #186e1e;
+    text-decoration: underline;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.nav-link:hover{
+    color: #bef7c7;
+    background-color: #8d8f83;
+}
+
+.homepageImage{
+    height: 500px;
+    width: 75%;
+}
+
+.homepageText{
+    color:black;
+    font-size: 30px;
+    font-family: "Source Sans Pro";
+}
+ 
+.facebookImage{
+    opacity: 1;
+    width: 75px;
+    height: 100px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.facebookMiddle{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.facebook:hover .facebookImage{
+    opacity: 0.3;
+}
+
+.facebook:hover .facebookMiddle{
+    opacity: 1;
+}
+
+.twitterImage{
+    opacity: 1;
+    width: 75px;
+    height: 100px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.twitterkMiddle{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.facebook:hover .facebookImage{
+    opacity: 0.3;
+}
+
+.facebook:hover .facebookMiddle{
+    opacity: 1;
+}
+  
+.textFacebook {
+    background-color: rgb(32, 43, 199);
+    color: white;
+    font-size: 10px;
+    padding: 5px 10px;
+  }
+
+.textTwitter {
+    background-color: rgb(53, 150, 240);
+    color: white;
+    font-size: 10px;
+    padding: 5px 10px;
+  }
+
+h1, h2{
+    font-family: 'Source Sans Pro';
+    text-decoration: underline;
+}
+
+h3{
+    font-family: 'Source Sans Pro';
+    margin-left: 25px;
+    text-decoration: underline;
+}
+
+h4{
+    font-family: 'Source Sans Pro';
+    margin-left: 50px;
+}
+
+
+.aboutMe{
+    font-family: 'Source Sans Pro';
+    margin-left: 50px;
+    font-size: 16px;
+}
+
+.aboutMeText{
+    font-family: 'Source Sans Pro';
+    margin-left: 50px;
+    font-size: 16px;
+}
+.aboutMeTextUnderlined{
+    font-family: 'Source Sans Pro';
+    margin-left: 50px;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.aboutMeInternalText{
+    font-family: 'Source Sans Pro';
+    margin-left: 75px;
+    font-size: 14px;
+}
+
+.projectPageText{
+    font-family: 'Source Sans Pro';
+    font-size: 12px;
+    font-color: blue;
+}
+
+.contactMeTextLabel{
+    font-family: 'Source Sans Pro';
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.contactMeText{
+    font-family: 'Source Sans Pro';
+    font-size: 16px;
+}
+
+.formText{
+    font-family: 'Source Sans Pro';
+}
+
+.submissionInput{
+    width: 500px;
+    height: 200px;
+    font-family: 'Source Sans Pro';
+}
+
+#dropdown{
+    width: 200px;
+}

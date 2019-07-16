@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Charles Clark</title>
+        <meta name="description" content="A portfolio website showcasing my information and projects">
+        <meta name="keywords" content="Charles Clark, portfolio, software development, veteran">
+        <meta name="author" content="Charles Clark">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <center>
+            <!--top navigation bar layout-->
+            <div class="topnav">
+                <a class="topNavButton" href="index.html">Homepage</a>
+                <a class="topNavButton" href="about_me.html">About Me</a>
+                <a class="topNavButton" href="projects.html">Projects</a>
+                <a class="topNavButton" href="contact.html">Contact</a>
+            </div>
+            <br>
+            <br>
+           <!--Introductory Image-->
+            <div>
+                <img id="softwareImage" src="images/coding_image.png" alt="software development" title="software development">
+                <br>
+                <br>
+            </div>
+            <!--Contact Me Information-->
+            <div>
+                <h1>Contact Me</h1>
+            </div>
+        </center>
+            <p class="contactMeText">If you would like to contact me, fill out the information below and I will respond to you as soon as possible.</p>
+            <!--Contace Me Form-->
+            <form class="formText">
+                First Name: <br>
+                <input type="text" name="firstname" placeholder="John" size=74><br>
+                Last Name: <br>
+                <input type="text" name="lastname" placeholder="Doe" size=74><br>
+                Email: <br>
+                <input type="text" name="email" placeholder="email@domain.com" size=74><br>
+                Reason: <br>
+                <select id="dropdown">
+                    <option value="(select)">select</option>
+                    <option value="Employment Inquiry">Employment Inquiry</option>
+                    <option value="Project Collaboration">Project Collaboration</option>
+                    <option value="Personal Inquiry">Personal Inquiry</option>
+                    <option value="Other">Other</option>
+                </select>
+                <br>
+                Message:<br>
+                <textarea type="text" class="submissionInput" placeholder="Start a conversation!" name="message"></textarea><br>
+                <input type="submit" value="Submit">
+            </form>
+            <span>
+                <a href="">
+                    <p class="contactMeText">Email:  charles.t.clark89@gmail.com</p>
+                </a>
+            </span>
+        <center>
+            </div>
+            <!--bottom navigation to social media links-->
+            <div class="bottomNav">
+                <div class="container">
+                    <a href="https://www.facebook.com/charlie.clark.927">
+                        <img src="images/facebook_logo.png" alt="facebook" class="socialMediaImage" style="width:100%">
+                        <div class="middle">
+                            <div class="textFacebook">Facebook</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="container">
+                    <a href="https://twitter.com/ctclark2">
+                        <img src="images/twitter_logo.png" alt="twitter" class="socialMediaImage" style="width:100%">
+                        <div class="middle">
+                            <div class="textTwitter">Twitter</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </center>
+    </body>
