@@ -105,9 +105,14 @@ body{
     padding: 5px 10px;
   }
 
-.aboutMeImage{
-    height: 150px;
+.aboutMeImageTop{
+    height: 200px;
     width: 25%;
+}
+
+.aboutMeImageBottom{
+    height: 175px;
+    width: 35%;
 }
 
 .textBorder{
@@ -182,4 +187,10 @@ h4, h5, h6{
 
 #dropdown{
     width: 200px;
+}
+
+#submitButton{
+    color: black;
+    background-color: #186e1e;
+    border-color: #186e1e;
 }

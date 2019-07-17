@@ -30,52 +30,54 @@
             </ul>
         </nav>
         <br><br><br>
-        <!--new contact me information form-->
+        <!--contact me introduction-->
         <div class="container">
-            
-        </div>
-        
-        
-        
-        
-        <!--Contact Me Information-->
-            <div>
-                <h1>Contact Me</h1>
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8 text-center">
+                    <h1>Contact Me</h1>
+                </div>
+                <div class="col-sm-2"></div>
             </div>
-        
-            <p class="contactMeText">If you would like to contact me, fill out the information below and I will respond to you as soon as possible.</p>
-            <!--Contace Me Form-->
-            <form class="formText">
-                First Name: <br>
-                <input type="text" name="firstname" placeholder="John" size=74><br>
-                Last Name: <br>
-                <input type="text" name="lastname" placeholder="Doe" size=74><br>
-                Email: <br>
-                <input type="text" name="email" placeholder="email@domain.com" size=74><br>
-                Reason: <br>
-                <select id="dropdown">
-                    <option value="(select)">select</option>
-                    <option value="Employment Inquiry">Employment Inquiry</option>
-                    <option value="Project Collaboration">Project Collaboration</option>
-                    <option value="Personal Inquiry">Personal Inquiry</option>
-                    <option value="Other">Other</option>
-                </select>
-                <br>
-                Message:<br>
-                <textarea type="text" class="submissionInput" placeholder="Start a conversation!" name="message"></textarea><br>
-                <input type="submit" value="Submit">
+            <br><br>
+            <div class="row">
+                <div class="col-sm-8 text-left">
+                    <p class="contactMeText">If you would like to contact me, fill out the information below and I will respond to you as soon as possible</p>
+                </div>
+                <div class="col-sm-4"></div>
+            </div>
+        </div>
+        <!--contact me form submssion field-->
+        <div class="container">
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-sm-6">
+                        <label for="firstName">First Name</label>
+                        <input type="text" class="form-control" id="firstName" placeholder="John">
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" class="form-control" id="lastName" placeholder="Doe">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-sm-6">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="email@domain.com">
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <label for="inquiryReason">Reason for Inquiry</label>
+                        <input type="text" class="form-control" id="inquiry" placeholder="Enter the reason for your inquiry">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="textArea">Enter Message Here</label>
+                    <textarea class="form-control" id="textArea" rows="4" placeholder="Start a conversation!"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary" id="submitButton">Submit</button>
             </form>
-            <span>
-                <a href="">
-                    <p class="contactMeText">Email:  charles.t.clark89@gmail.com</p>
-                </a>
-            </span>
-        
-        
-        
-        
-        
-        <br>
+        </div>
+        <br><br><br>
         <!--social media bottom links-->
         <div class="container">
                 <div class="row">
