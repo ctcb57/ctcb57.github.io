@@ -2,7 +2,7 @@ body{
     background-color: #cccdcf;
 }
 
-.navbar-nav.navbar-center{
+.navbar.navbar-expand-sm{
     font-family: 'Source Sans Pro';
     font-size: 30px;
     color: #186e1e;
@@ -168,8 +168,8 @@ h4, h5, h6{
 
 .projectPageText{
     font-family: 'Source Sans Pro';
-    font-size: 12px;
-    font-color: blue;
+    font-size: 16px;
+    color: blue;
 }
 
 .contactMeTextLabel{
